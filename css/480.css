@@ -1,0 +1,72 @@
+/* menu */
+.menu__link {
+  padding: 0 4%;
+}
+
+.block__menu {
+    background-color: rgba(61, 49, 69, 0.9);
+    border: 1px solid #0e1921;
+    border-radius: 9px;
+    display: block;
+    height: 260px;
+    margin: 5% 0 0 24%;
+    position: absolute;
+    width: 52%;
+    z-index: 500;
+}
+.block__menu .menu__item {
+    display:block;
+    list-style: none;
+    padding: 0 0 0 0;
+}
+
+.block__menu .menu__link{
+    display: block;
+    list-style: none;
+    height: 42px;
+    
+    
+}
+
+ .block__menu  .menu__link {
+    border-bottom: 1px solid #382940;
+    border-top: 1px solid #514057;
+    color: #fff;
+    display: block;
+    font: 23px/17px "LeagueGothic",sans-serif;
+    height: 43px;
+    letter-spacing: 0.009em;
+    list-style: outside none none;
+    margin: 0;
+    padding: 6% 0 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 2px 2px rgba(102, 95, 106, 1);
+}
+
+.block__menu .menu__item:first-child a {
+   -moz-border-radius-topright: 7px;
+    -webkit-border-top-right-radius: 7px;
+    border-top-right-radius: 7px;
+    -moz-border-radius-topleft: 7px;
+    -webkit-border-top-left-radius: 7px;
+    border-top-left-radius: 7px;
+} 
+
+.block__menu .menu__item:last-child a {
+   -moz-border-radius-bottomright: 7px;
+    -webkit-border-bottom-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    -moz-border-radius-bottomleft: 7px;
+    -webkit-border-bottom-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+} 
+
+.block__menu .menu__link:hover {
+    border-bottom: 2px solid #EDBFFE;
+    background-color: #2D2333;
+   
+}
+
+
+/*END menu */
